@@ -16,16 +16,11 @@ Plop is an iOS app designed to help people find and review bathrooms based on th
 
 # How to build
 
-Plop can be built and run using Xcode, and accessed through the Plop.xcworkspace file.
+The main project file is [Plop.xcworkspace](https://github.com/jmg764/iOS-Projects/tree/master/Plop/Plop.xcodeproj).
 
-To add frameworks using Carthage follow the instructions in this link: https://github.com/Carthage/Carthage
-	Create new Cartfile: touch Cartfile
-	Open Cartfile with Xcode: open Cartfile -a Xcode
-	Build frameworks with Carthage: carthage update --platform iOS --no-use-binaries
-	Enable latest Swift compiler: sudo xcode-select -switch *path to Xcode*
-	Open current directory: open .
-	Add to Run Script Phase: /usr/local/bin/carthage copy-frameworks
-	Path to Framework: $(SRCROOT)/Carthage/Build/iOS/OAuth2.framework
+To install Firebase frameworks, while in the main directory for this project, run the ```pod install``` command in Terminal.
+
+Install [OAuth2](https://github.com/p2/OAuth2), [Locksmith](https://github.com/matthewpalmer/Locksmith), and [Cosmos](https://github.com/evgenyneu/Cosmos) using Carthage. For more information on installing Carthage and the necessary frameworks, follow the instructions given [here](https://github.com/Carthage/Carthage).
 
 
 # Requirements
