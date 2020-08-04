@@ -1,0 +1,13 @@
+# Plop
+
+use_frameworks!
+platform :ios, '12.1'
+
+pod 'Firebase/Storage'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/RemoteConfig'
+pod 'FirebaseUI'
+
+target 'Plop' do
+end
