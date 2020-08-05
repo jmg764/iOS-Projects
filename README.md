@@ -35,8 +35,10 @@ BetIT is an iOS app that I helped develop during my internship at [Majestyk Apps
 
 ## Virtual Tourist
 
-<img src="images/virtual_tourist_demo.gif"  alt="drawing" width="225"/>
+<img src="images/virtual_tourist_demo2.gif"  alt="drawing" width="225"/>
 
 ## Pitch Perfect
+
+<img src="images/pitch_perfect_demo.gif"  alt="drawing" width="225"/>
 
 
